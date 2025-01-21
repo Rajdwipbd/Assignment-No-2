@@ -97,7 +97,7 @@
 }
 
 .banner-text {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     display: flex;
     flex-direction: column;
     column-gap: 24px;
@@ -143,6 +143,98 @@
 
 }
 
+/* main section start    */
+
+.main {
+    max-width: 1440px;
+    max-height: 879px;
+    background-image: url(../assets/bg.png);
+}
+
+.Curriculum h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.card {
+    max-width: 367.8px;
+    max-height: 476px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.card-1 {
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(205, 243, 101), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.card-2 {
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(59, 57, 57, 0.05);
+    background: linear-gradient(180.00deg, rgba(128, 228, 228, 0.856), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+.card-3{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 144, 230), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.card div {
+    display: flex;
+    justify-content: center;
+}
+
+.main-image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.card-p {
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.c-text {
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: rgb(128, 128, 128);
+    text-align: center;
+}
+
+.link-p {
+    text-align: center;
+}
+
+.read-more-1 {
+    color: rgba(0, 0, 255, 0.692);
+    text-decoration: none;
+}
+
+.read-more-2 {
+    color: #FFB6C1;
+    text-decoration: none;
+}
+
+.read-more-3 {
+    color: chartreuse;
+    text-decoration: none;
+}
 
 
 @media screen and (max-width:576px) {
