@@ -237,6 +237,149 @@
     text-decoration: none;
 }
 
+a {
+    text-decoration: none;
+}
+
+.icon-sec {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.icon-sec i {
+    font-size: 24px;
+    background-color: orange;
+    padding: 17px 20px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* stories section start  */
+.stories h2 {
+    color: rgb(0, 0, 0);
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.stories {
+    max-width: 1440px;
+
+}
+
+.section {
+    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(245, 243, 243, 0.3) 100%);
+    padding-bottom: 60px;
+}
+
+.stories-container {
+
+    max-width: 1160px;
+    max-height: 630px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    gap: 10px;
+
+}
+
+
+.box1 img {
+    border-radius: 7px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.story-1 img {
+    height: 337px;
+}
+
+
+.box1 {
+    display: flex;
+    gap: 20px;
+
+}
+
+.box1>div {
+    width: 50%;
+}
+
+.box1>div>div {
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
+.box1>div>div p {
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 15.34px;
+    font-weight: 700;
+    line-height: 28.76px;
+    text-align: left;
+}
+
+.story-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 4.5%;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    width: 100%;
+    height: 610px;
+}
+
+.date {
+    position: absolute;
+    background-color: aqua;
+    color: white;
+    padding: 14px 18px;
+    border-radius: 12px;
+    left: 6%;
+    top: 47%;
+}
+
+.sub-date {
+    left: 5%;
+    top: 43%;
+}
+
+.box4 {
+    position: relative;
+
+}
+
+.story-1 p,
+h4 {
+    padding-left: 5px;
+
+}
+
+.story-1 p {
+    margin-top: -20px;
+}
+
+.story-1 h4 {
+    font-size: 1.2em;
+}
+
+.other-stories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+}
+
+.other-stories>div {
+    width: 290px;
+    height: 300px;
+}
+
+
+
 
 
 @media screen and (max-width:576px) {
@@ -292,5 +435,17 @@
 
     .banner-info {
         text-align: center
+    }
+
+
+    /* main section start  */
+    .main-image {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+
+    }
+
+    .icon-sec {
+        display: none;
     }
 }
