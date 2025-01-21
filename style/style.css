@@ -10,6 +10,7 @@
 
 .body {
     max-width: 1440px;
+    background-color: rgb(247, 247, 247);
 }
 
 /* Header Section Css start  */
@@ -17,6 +18,8 @@
 .header-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
     max-width: 1160px;
     margin: 0 auto;
 }
@@ -44,12 +47,33 @@
 .links-list {
     display: flex;
     justify-content: space-evenly;
+    gap: 10px;
+}
+
+.home {
+    color: chocolate
+}
+
+.about {
+    color: chartreuse;
+}
+
+.facilities {
+    color: #FFB6C1;
+    ;
+}
+
+.icon {
+    display: none;
+    width: 22px;
+    height: 15px;
 }
 
 #contact-btn {
     padding: 10px 60px;
     border: none;
     color: rgb(255, 255, 255);
+    font: 0.68rem;
     font-weight: 600;
     background-color: Orange;
     border-radius: 12px;
@@ -59,4 +83,94 @@
 .btn {
     display: flex;
     justify-content: end;
+}
+
+/* banner section start  */
+.banner {
+    max-width: 1158px;
+    margin: 20px auto;
+    display: flex;
+    gap: 50px;
+
+}
+
+.banner-text {
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    column-gap: 24px;
+    margin: 0;
+}
+
+.Empowering {
+    color: rgb(254, 163, 1);
+}
+
+.towards {
+    color: rgb(1, 172, 253);
+}
+
+.banner-info {
+    font-weight: 400;
+    color: rgb(17, 17, 17);
+
+}
+
+.enroll-btn {
+    max-width: 197px;
+    max-height: 50px;
+    padding: 10px;
+    background-color: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
+.ban-sec-1 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 640px;
+    max-height: 331px;
+    margin: auto 0;
+}
+
+.ban-sec-2 img {
+    width: 100%;
+    max-height: 575px;
+
+}
+
+
+
+@media screen and (max-width:576px) {
+    .icon {
+        display: inline;
+        padding-left: 60%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .log-and-Web-Name img {
+        padding-left: 20px;
+        width: 30%;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-container {
+        margin-top: 20px;
+
+    }
+
+    .links-list {
+        display: none;
+    }
+
+    .log-and-Web-Name h2,
+    .btn {
+        display: none;
+    }
 }
