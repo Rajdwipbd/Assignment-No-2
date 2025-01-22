@@ -534,4 +534,13 @@ h4 {
 
     }
 
+
+    /* finishing task  */
+    .date {
+
+        left: 5%;
+        top: 30%;
+        padding: 7px 10px;
+    }
+
 }
