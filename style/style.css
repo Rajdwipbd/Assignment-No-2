@@ -147,7 +147,7 @@
 
 .main {
     max-width: 1440px;
-    max-height: 879px;
+    /* max-height: 879px; */
     background-image: url(../assets/bg.png);
 }
 
@@ -382,7 +382,53 @@ h4 {
     height: 300px;
 }
 
+/* footer start  */
+.footer {
+    background-color: rgb(1, 172, 253);
+    padding: 30px 0;
 
+
+}
+
+.footer-container {
+    color: white;
+    width: 88%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.footer-kiddo {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.footer-img img {
+    padding: 5px;
+}
+
+.foot-text {
+    text-align: start;
+    color: white;
+
+}
+
+.li-container-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.li-container-footer li {
+    list-style: none;
+
+}
+
+.li-container-footer li a {
+    color: white;
+}
 
 
 
@@ -471,9 +517,20 @@ h4 {
     .box1>div {
         width: 100%;
     }
-    
 
 
+    .section {
+        padding-bottom: 0;
+    }
 
+    /* footer section  */
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+    .li-container-footer {
+        padding-left: 5px;
+
+    }
 
 }
